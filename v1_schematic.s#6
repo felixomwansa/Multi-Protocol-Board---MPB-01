@@ -17685,12 +17685,13 @@ W = angled&lt;p&gt;
 <label x="81.026" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="BOOT0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="BOOT0"/>
 <wire x1="-108.966" y1="73.66" x2="-112.014" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-112.014" y1="76.962" x2="-112.014" y2="73.66" width="0.1524" layer="91"/>
+<label x="-112.014" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TRST" class="0">
