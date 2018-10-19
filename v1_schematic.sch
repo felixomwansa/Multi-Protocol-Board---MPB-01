@@ -17838,6 +17838,24 @@ MAX481CPA</text>
 <instance part="T1" gate="G$1" x="160.782" y="-43.942" rot="R180"/>
 </instances>
 <busses>
+<bus name="B$1">
+<segment>
+<wire x1="-89.916" y1="202.946" x2="-89.916" y2="119.888" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="119.888" x2="-89.916" y2="1.27" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="1.27" x2="-89.916" y2="-94.234" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="-94.234" x2="-89.916" y2="-225.044" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="119.888" x2="59.69" y2="119.888" width="0.254" layer="92" style="shortdash"/>
+<wire x1="59.69" y1="119.888" x2="260.858" y2="119.888" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="1.27" x2="260.858" y2="1.27" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="-94.234" x2="260.858" y2="-94.234" width="0.254" layer="92" style="shortdash"/>
+<wire x1="59.69" y1="119.888" x2="59.69" y2="-225.044" width="0.254" layer="92" style="shortdash"/>
+</segment>
+</bus>
+<bus name="B$2">
+<segment>
+<wire x1="-90.17" y1="-105.156" x2="-290.322" y2="-105.156" width="0.254" layer="92" style="shortdash"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="H1" class="0">

@@ -17838,6 +17838,19 @@ MAX481CPA</text>
 <instance part="T1" gate="G$1" x="160.782" y="-43.942" rot="R180"/>
 </instances>
 <busses>
+<bus name="B$1">
+<segment>
+<wire x1="-89.916" y1="202.946" x2="-89.916" y2="119.888" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="119.888" x2="-89.916" y2="1.27" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="1.27" x2="-89.916" y2="-94.234" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="-94.234" x2="-89.916" y2="-225.044" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="119.888" x2="59.69" y2="119.888" width="0.254" layer="92" style="shortdash"/>
+<wire x1="59.69" y1="119.888" x2="260.858" y2="119.888" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="1.27" x2="260.858" y2="1.27" width="0.254" layer="92" style="shortdash"/>
+<wire x1="-89.916" y1="-94.234" x2="260.858" y2="-94.234" width="0.254" layer="92" style="shortdash"/>
+<wire x1="59.69" y1="119.888" x2="59.69" y2="-225.044" width="0.254" layer="92" style="shortdash"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="H1" class="0">
@@ -18876,6 +18889,14 @@ MAX481CPA</text>
 <label x="-147.32" y="21.336" size="1.778" layer="95"/>
 <wire x1="-147.828" y1="21.336" x2="-135.128" y2="21.336" width="0.15" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="DE"/>
+<wire x1="107.188" y1="-49.022" x2="92.202" y2="-49.022" width="0.15" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="RE/"/>
+<wire x1="107.188" y1="-43.942" x2="92.202" y2="-43.942" width="0.15" layer="91"/>
+<wire x1="92.202" y1="-49.022" x2="92.202" y2="-43.942" width="0.15" layer="91"/>
+<label x="92.202" y="-43.942" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A11" class="0">
 <segment>
@@ -19426,20 +19447,6 @@ MAX481CPA</text>
 <wire x1="132.588" y1="-49.022" x2="153.162" y2="-49.022" width="0.15" layer="91"/>
 <pinref part="T1" gate="G$1" pin="2"/>
 <wire x1="153.162" y1="-49.022" x2="153.162" y2="-46.482" width="0.15" layer="91"/>
-</segment>
-</net>
-<net name="RE#" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="RE/"/>
-<wire x1="107.188" y1="-43.942" x2="92.202" y2="-43.942" width="0.15" layer="91"/>
-<label x="92.71" y="-43.942" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DE" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="DE"/>
-<wire x1="107.188" y1="-49.022" x2="92.202" y2="-49.022" width="0.15" layer="91"/>
-<label x="92.456" y="-49.022" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
