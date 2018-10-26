@@ -30283,9 +30283,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U2" library="ON Semiconductor - NCP1117ST50T3G" deviceset="ON_SEMICONDUCTOR_NCP1117ST50T3G" device="ON_SEMICONDUCTOR_NCP1117ST50T3G_0_2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5908" device="" package3d_urn="urn:adsk.eagle:package:43355/1"/>
 <part name="Q3" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="2N2222*" device="" package3d_urn="urn:adsk.eagle:package:28973/2" technology="A"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20K"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20K"/>
 <part name="D2" library="NXP_60_26022015" deviceset="BZX84J" device=""/>
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-1014" package3d_urn="urn:adsk.eagle:package:23406/1"/>
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-6" package3d_urn="urn:adsk.eagle:package:23368/1" value="1000uF 25V"/>
@@ -30296,7 +30296,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C48" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP"/>
 <part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-6" package3d_urn="urn:adsk.eagle:package:23368/1" value="1000uF 25V"/>
 <part name="U$2" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:7494/1"/>
-<part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-6" package3d_urn="urn:adsk.eagle:package:23368/1" value="1000uF 25V"/>
+<part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-6" package3d_urn="urn:adsk.eagle:package:23368/1" value="100uF 25V"/>
 <part name="X4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -30311,6 +30311,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY30" library="supply2" deviceset="+12V" device=""/>
 <part name="SUPPLY31" library="supply2" deviceset="+12V" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="+12V" device=""/>
+<part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30453,8 +30454,8 @@ MAX481CPA</text>
 <instance part="Q3" gate="G$1" x="-53.848" y="162.814"/>
 <instance part="R15" gate="G$1" x="-51.308" y="147.32" rot="R90"/>
 <instance part="R16" gate="G$1" x="-68.834" y="147.32" rot="R90"/>
-<instance part="R17" gate="G$1" x="-68.834" y="178.308" rot="R90"/>
-<instance part="D2" gate="G$1" x="-68.834" y="168.148" rot="R90"/>
+<instance part="R17" gate="G$1" x="-68.834" y="179.578" rot="R90"/>
+<instance part="D2" gate="G$1" x="-68.834" y="167.132" rot="MR90"/>
 <instance part="C43" gate="G$1" x="104.648" y="155.956"/>
 <instance part="C44" gate="G$1" x="70.866" y="158.75"/>
 <instance part="L3" gate="G$1" x="44.704" y="166.37"/>
@@ -30480,6 +30481,7 @@ MAX481CPA</text>
 <instance part="SUPPLY30" gate="+12V" x="81.026" y="168.91"/>
 <instance part="SUPPLY31" gate="+12V" x="104.648" y="181.864"/>
 <instance part="SUPPLY32" gate="+12V" x="168.91" y="179.578"/>
+<instance part="SUPPLY33" gate="GND" x="-22.606" y="170.942"/>
 </instances>
 <busses>
 <bus name="B$1">
@@ -30867,6 +30869,16 @@ MAX481CPA</text>
 <wire x1="27.94" y1="161.29" x2="30.48" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="161.29" x2="30.48" y2="156.718" width="0.1524" layer="91"/>
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X4" gate="-1" pin="KL"/>
+<wire x1="-1.27" y1="138.43" x2="6.35" y2="138.43" width="0.1524" layer="91"/>
+<label x="6.35" y="138.43" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="-22.606" y1="174.752" x2="-22.606" y2="173.482" width="0.1524" layer="91"/>
+<pinref part="SUPPLY33" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="F1" class="0">
@@ -32202,7 +32214,7 @@ MAX481CPA</text>
 <wire x1="-68.834" y1="152.146" x2="-68.834" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="B"/>
 <wire x1="-68.834" y1="152.4" x2="-68.834" y2="162.814" width="0.1524" layer="91"/>
-<wire x1="-68.834" y1="162.814" x2="-68.834" y2="165.608" width="0.1524" layer="91"/>
+<wire x1="-68.834" y1="162.814" x2="-68.834" y2="164.592" width="0.1524" layer="91"/>
 <wire x1="-56.388" y1="162.814" x2="-68.834" y2="162.814" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <junction x="-68.834" y="152.4"/>
@@ -32217,23 +32229,13 @@ MAX481CPA</text>
 <junction x="-51.308" y="157.734"/>
 </segment>
 </net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="Q3" gate="G$1" pin="C"/>
-<wire x1="-51.308" y1="167.894" x2="-51.308" y2="187.198" width="0.1524" layer="91"/>
-<wire x1="-51.308" y1="187.198" x2="-68.834" y2="187.198" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="-68.834" y1="187.198" x2="-68.834" y2="183.388" width="0.1524" layer="91"/>
-<wire x1="-68.834" y1="187.198" x2="-68.834" y2="188.468" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-68.834" y1="173.482" x2="-68.834" y2="173.228" width="0.1524" layer="91"/>
+<wire x1="-68.834" y1="173.482" x2="-68.834" y2="174.498" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="-68.834" y1="173.228" x2="-68.834" y2="170.688" width="0.1524" layer="91"/>
-<junction x="-68.834" y="173.228"/>
+<wire x1="-68.834" y1="174.498" x2="-68.834" y2="169.672" width="0.1524" layer="91"/>
+<junction x="-68.834" y="174.498"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -32244,7 +32246,7 @@ MAX481CPA</text>
 <wire x1="0" y1="152.654" x2="-51.308" y2="152.654" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="1"/>
 <wire x1="-22.606" y1="179.832" x2="-12.446" y2="179.832" width="0.1524" layer="91"/>
@@ -32256,12 +32258,21 @@ MAX481CPA</text>
 <wire x1="-7.874" y1="171.45" x2="5.08" y2="171.45" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="2"/>
 <wire x1="-22.606" y1="177.292" x2="-12.446" y2="177.292" width="0.1524" layer="91"/>
+<label x="-2.54" y="171.45" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$38" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="3"/>
-<wire x1="-22.606" y1="174.752" x2="-22.606" y2="169.926" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
+<wire x1="-51.308" y1="167.894" x2="-51.308" y2="187.198" width="0.1524" layer="91"/>
+<wire x1="-51.308" y1="187.198" x2="-68.834" y2="187.198" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="-68.834" y1="187.198" x2="-68.834" y2="184.658" width="0.1524" layer="91"/>
+<wire x1="-68.834" y1="187.198" x2="-68.834" y2="188.468" width="0.1524" layer="91"/>
+<label x="-68.834" y="188.468" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X4" gate="-2" pin="KL"/>
+<wire x1="-1.27" y1="133.35" x2="6.35" y2="133.35" width="0.1524" layer="91"/>
+<label x="6.096" y="133.35" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -32272,18 +32283,6 @@ MAX481CPA</text>
 <pinref part="IC5" gate="A" pin="OUT"/>
 <wire x1="37.592" y1="166.37" x2="44.704" y2="166.37" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="166.37" x2="37.592" y2="166.37" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="X4" gate="-1" pin="KL"/>
-<wire x1="-1.27" y1="138.43" x2="6.35" y2="138.43" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="X4" gate="-2" pin="KL"/>
-<wire x1="-1.27" y1="133.35" x2="6.35" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
