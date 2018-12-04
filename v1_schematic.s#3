@@ -32101,6 +32101,11 @@ MAX481CPA</text>
 <label x="-227.33" y="-42.164" size="1.778" layer="95"/>
 <wire x1="-214.122" y1="-42.164" x2="-227.33" y2="-42.164" width="0.15" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="1" pin="RXD"/>
+<label x="7.874" y="101.092" size="1.778" layer="95"/>
+<wire x1="6.858" y1="101.092" x2="20.066" y2="101.092" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="USART1_RX" class="0">
 <segment>
@@ -32108,6 +32113,11 @@ MAX481CPA</text>
 <wire x1="-209.296" y1="-44.704" x2="-214.122" y2="-44.704" width="0.1524" layer="91"/>
 <label x="-227.33" y="-44.704" size="1.778" layer="95"/>
 <wire x1="-214.122" y1="-44.704" x2="-227.33" y2="-44.704" width="0.15" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="1" pin="TXD"/>
+<label x="7.874" y="103.632" size="1.778" layer="95"/>
+<wire x1="6.858" y1="103.632" x2="20.066" y2="103.632" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -32131,11 +32141,6 @@ MAX481CPA</text>
 <label x="-227.838" y="-52.324" size="1.778" layer="95"/>
 <wire x1="-214.122" y1="-52.324" x2="-227.838" y2="-52.324" width="0.15" layer="91"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="1" pin="RXD"/>
-<label x="7.874" y="101.092" size="1.778" layer="95"/>
-<wire x1="6.858" y1="101.092" x2="20.066" y2="101.092" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="USART3_RX" class="0">
 <segment>
@@ -32143,11 +32148,6 @@ MAX481CPA</text>
 <wire x1="-209.296" y1="-54.864" x2="-214.122" y2="-54.864" width="0.1524" layer="91"/>
 <label x="-227.838" y="-54.864" size="1.778" layer="95"/>
 <wire x1="-214.122" y1="-54.864" x2="-227.838" y2="-54.864" width="0.15" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="1" pin="TXD"/>
-<label x="7.874" y="103.632" size="1.778" layer="95"/>
-<wire x1="6.858" y1="103.632" x2="20.066" y2="103.632" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART3_CK" class="0">
@@ -32770,13 +32770,14 @@ MAX481CPA</text>
 <wire x1="-246.888" y1="28.956" x2="-246.888" y2="26.67" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="RESET" class="0">
 <segment>
 <wire x1="-209.042" y1="74.676" x2="-209.296" y2="74.676" width="0.1524" layer="91"/>
 <wire x1="-209.296" y1="74.676" x2="-245.364" y2="74.676" width="0.1524" layer="91"/>
 <wire x1="-245.364" y1="74.676" x2="-245.364" y2="74.93" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="NRST"/>
 <junction x="-209.296" y="74.676"/>
+<label x="-217.932" y="74.676" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">

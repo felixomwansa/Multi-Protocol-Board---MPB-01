@@ -30974,8 +30974,8 @@ MAX481CPA</text>
 <instance part="SUPPLY31" gate="+12V" x="104.648" y="181.864"/>
 <instance part="SUPPLY32" gate="+12V" x="168.91" y="179.578"/>
 <instance part="SUPPLY33" gate="GND" x="-22.606" y="170.942"/>
-<instance part="+3V11" gate="G$1" x="173.736" y="87.122"/>
-<instance part="SUPPLY34" gate="GND" x="162.306" y="52.578"/>
+<instance part="+3V11" gate="G$1" x="184.912" y="94.234"/>
+<instance part="SUPPLY34" gate="GND" x="163.068" y="82.296"/>
 <instance part="R18" gate="G$1" x="-67.564" y="-73.914" rot="R90"/>
 <instance part="R19" gate="G$1" x="-77.724" y="-73.914" rot="R90"/>
 <instance part="R20" gate="G$1" x="8.636" y="-74.168" rot="R90"/>
@@ -31649,10 +31649,6 @@ MAX481CPA</text>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="+3V11" gate="G$1" pin="+3V3"/>
-<wire x1="203.454" y1="84.582" x2="173.736" y2="84.582" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X6" gate="G$1" pin="4"/>
 <wire x1="182.118" y1="-43.942" x2="197.358" y2="-43.942" width="0.1524" layer="91"/>
 <wire x1="197.358" y1="-43.942" x2="197.358" y2="-31.496" width="0.1524" layer="91"/>
@@ -31984,7 +31980,7 @@ MAX481CPA</text>
 <label x="-50.8" y="-134.366" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI1_SS" class="0">
+<net name="ETH_SS" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA4"/>
 <wire x1="-209.296" y1="6.096" x2="-227.076" y2="6.096" width="0.1524" layer="91"/>
@@ -31995,7 +31991,7 @@ MAX481CPA</text>
 <wire x1="203.2" y1="82.042" x2="173.228" y2="82.042" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPI1_MISO" class="0">
+<net name="ETH_MISO" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA6"/>
 <wire x1="-209.296" y1="1.016" x2="-227.076" y2="1.016" width="0.1524" layer="91"/>
@@ -32006,7 +32002,7 @@ MAX481CPA</text>
 <label x="173.228" y="71.882" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI1_MOSI" class="0">
+<net name="ETH_MOSI" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA7"/>
 <wire x1="-209.296" y1="-1.524" x2="-213.868" y2="-1.524" width="0.1524" layer="91"/>
@@ -32987,7 +32983,7 @@ MAX481CPA</text>
 <junction x="168.91" y="177.038"/>
 </segment>
 </net>
-<net name="SPI1_SCK" class="0">
+<net name="ETH_SCK" class="0">
 <segment>
 <wire x1="203.2" y1="76.962" x2="173.228" y2="76.962" width="0.1524" layer="91"/>
 <label x="173.228" y="76.962" size="1.778" layer="95"/>

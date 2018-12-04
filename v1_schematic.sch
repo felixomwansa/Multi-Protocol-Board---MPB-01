@@ -32012,6 +32012,12 @@ MAX481CPA</text>
 <wire x1="203.2" y1="82.042" x2="173.228" y2="82.042" width="0.1524" layer="91"/>
 <pinref part="X8" gate="-3" pin="S"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB12"/>
+<wire x1="-209.296" y1="-57.404" x2="-214.122" y2="-57.404" width="0.1524" layer="91"/>
+<label x="-227.838" y="-57.404" size="1.778" layer="95"/>
+<wire x1="-214.122" y1="-57.404" x2="-227.838" y2="-57.404" width="0.15" layer="91"/>
+</segment>
 </net>
 <net name="ETH_MISO" class="0">
 <segment>
@@ -32023,6 +32029,12 @@ MAX481CPA</text>
 <wire x1="203.2" y1="71.882" x2="173.228" y2="71.882" width="0.1524" layer="91"/>
 <label x="173.228" y="71.882" size="1.778" layer="95"/>
 <pinref part="X8" gate="-7" pin="S"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB14"/>
+<wire x1="-209.296" y1="-62.484" x2="-214.122" y2="-62.484" width="0.1524" layer="91"/>
+<label x="-227.838" y="-62.484" size="1.778" layer="95"/>
+<wire x1="-214.122" y1="-62.484" x2="-227.838" y2="-62.484" width="0.15" layer="91"/>
 </segment>
 </net>
 <net name="ETH_MOSI" class="0">
@@ -32037,6 +32049,11 @@ MAX481CPA</text>
 <wire x1="203.2" y1="74.422" x2="173.228" y2="74.422" width="0.1524" layer="91"/>
 <label x="173.228" y="74.422" size="1.778" layer="95"/>
 <pinref part="X8" gate="-6" pin="S"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB15"/>
+<label x="-227.838" y="-65.024" size="1.778" layer="95"/>
+<wire x1="-209.296" y1="-65.024" x2="-227.838" y2="-65.024" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="F15" class="0">
@@ -32148,37 +32165,6 @@ MAX481CPA</text>
 <wire x1="-209.296" y1="-54.864" x2="-214.122" y2="-54.864" width="0.1524" layer="91"/>
 <label x="-227.838" y="-54.864" size="1.778" layer="95"/>
 <wire x1="-214.122" y1="-54.864" x2="-227.838" y2="-54.864" width="0.15" layer="91"/>
-</segment>
-</net>
-<net name="USART3_CK" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB12"/>
-<wire x1="-209.296" y1="-57.404" x2="-214.122" y2="-57.404" width="0.1524" layer="91"/>
-<label x="-227.838" y="-57.404" size="1.778" layer="95"/>
-<wire x1="-214.122" y1="-57.404" x2="-227.838" y2="-57.404" width="0.15" layer="91"/>
-</segment>
-</net>
-<net name="USART3_CTS" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB13"/>
-<wire x1="-209.296" y1="-59.944" x2="-214.122" y2="-59.944" width="0.1524" layer="91"/>
-<label x="-227.838" y="-59.944" size="1.778" layer="95"/>
-<wire x1="-214.122" y1="-59.944" x2="-227.838" y2="-59.944" width="0.15" layer="91"/>
-</segment>
-</net>
-<net name="USART3_RTS" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB14"/>
-<wire x1="-209.296" y1="-62.484" x2="-214.122" y2="-62.484" width="0.1524" layer="91"/>
-<label x="-227.838" y="-62.484" size="1.778" layer="95"/>
-<wire x1="-214.122" y1="-62.484" x2="-227.838" y2="-62.484" width="0.15" layer="91"/>
-</segment>
-</net>
-<net name="R15" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB15"/>
-<wire x1="-209.296" y1="-65.024" x2="-214.122" y2="-65.024" width="0.1524" layer="91"/>
-<label x="-213.614" y="-65.024" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M2" class="0">
@@ -33027,6 +33013,12 @@ MAX481CPA</text>
 <pinref part="U$1" gate="G$1" pin="PA5"/>
 <wire x1="-209.296" y1="3.556" x2="-227.076" y2="3.556" width="0.1524" layer="91"/>
 <label x="-227.076" y="3.556" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB13"/>
+<wire x1="-209.296" y1="-59.944" x2="-214.122" y2="-59.944" width="0.1524" layer="91"/>
+<label x="-227.838" y="-59.944" size="1.778" layer="95"/>
+<wire x1="-214.122" y1="-59.944" x2="-227.838" y2="-59.944" width="0.15" layer="91"/>
 </segment>
 </net>
 <net name="T20UT_" class="0">

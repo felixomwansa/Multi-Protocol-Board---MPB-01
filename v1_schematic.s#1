@@ -32779,6 +32779,15 @@ MAX481CPA</text>
 <junction x="-209.296" y="74.676"/>
 <label x="-217.932" y="74.676" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C51" gate="G$1" pin="1"/>
+<wire x1="29.464" y1="93.472" x2="41.656" y2="93.472" width="0.1524" layer="91"/>
+<wire x1="41.656" y1="93.472" x2="41.656" y2="98.552" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="41.656" y1="98.552" x2="39.878" y2="98.552" width="0.1524" layer="91"/>
+<wire x1="41.656" y1="98.552" x2="42.926" y2="98.552" width="0.1524" layer="91"/>
+<label x="42.926" y="98.552" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$18" class="0">
 <segment>
@@ -33154,16 +33163,6 @@ MAX481CPA</text>
 <pinref part="IC2" gate="1" pin="!CTS"/>
 <wire x1="6.858" y1="96.012" x2="20.066" y2="96.012" width="0.1524" layer="91"/>
 <label x="7.874" y="96.012" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="C51" gate="G$1" pin="1"/>
-<wire x1="29.464" y1="93.472" x2="41.656" y2="93.472" width="0.1524" layer="91"/>
-<wire x1="41.656" y1="93.472" x2="41.656" y2="98.552" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="41.656" y1="98.552" x2="39.878" y2="98.552" width="0.1524" layer="91"/>
-<wire x1="41.656" y1="98.552" x2="42.926" y2="98.552" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCSN_SD" class="0">

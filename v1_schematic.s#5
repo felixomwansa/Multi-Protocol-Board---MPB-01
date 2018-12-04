@@ -30795,6 +30795,7 @@ Source: http://www.molex.com</description>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="X7" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device=""/>
 <part name="X8" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device=""/>
+<part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31028,6 +31029,7 @@ MAX481CPA</text>
 <instance part="X8" gate="-6" x="205.74" y="74.422"/>
 <instance part="X8" gate="-7" x="205.74" y="71.882"/>
 <instance part="X8" gate="-8" x="205.74" y="69.342"/>
+<instance part="SUPPLY39" gate="GND" x="198.882" y="66.04"/>
 </instances>
 <busses>
 <bus name="B$1">
@@ -33238,6 +33240,14 @@ MAX481CPA</text>
 <label x="182.88" y="0.508" size="1.778" layer="95"/>
 <pinref part="X7" gate="-8" pin="S"/>
 <junction x="203.708" y="0.508"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<wire x1="203.454" y1="69.342" x2="198.882" y2="69.342" width="0.1524" layer="91"/>
+<wire x1="198.882" y1="69.342" x2="198.882" y2="68.326" width="0.1524" layer="91"/>
+<wire x1="203.454" y1="76.962" x2="198.882" y2="76.962" width="0.1524" layer="91"/>
+<wire x1="198.882" y1="76.962" x2="198.882" y2="69.342" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
