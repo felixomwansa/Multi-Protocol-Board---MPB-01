@@ -30827,6 +30827,8 @@ MAX481CPA</text>
 <text x="154.432" y="31.75" size="3.81" layer="91">nRF5 Module Interface (nRF51822 Chip)</text>
 <text x="154.432" y="31.75" size="3.81" layer="91">nRF5 Module Interface (nRF51822 Chip)</text>
 <text x="158.496" y="-25.654" size="3.81" layer="91">SD Card Interface</text>
+<text x="-221.996" y="156.464" size="1.778" layer="91" font="vector">TRST</text>
+<text x="-212.852" y="131.064" size="1.778" layer="91" font="vector">TDO/SWO</text>
 </plain>
 <instances>
 <instance part="IC2" gate="1" x="-8.382" y="80.772"/>
@@ -32111,46 +32113,6 @@ MAX481CPA</text>
 <junction x="-47.244" y="-201.168"/>
 </segment>
 </net>
-<net name="A8" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB5"/>
-<wire x1="-209.296" y1="-39.624" x2="-214.122" y2="-39.624" width="0.1524" layer="91"/>
-<label x="-213.614" y="-39.624" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USART1_TX" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB6"/>
-<wire x1="-209.296" y1="-42.164" x2="-214.122" y2="-42.164" width="0.1524" layer="91"/>
-<label x="-227.33" y="-42.164" size="1.778" layer="95"/>
-<wire x1="-214.122" y1="-42.164" x2="-227.33" y2="-42.164" width="0.15" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="1" pin="RXD"/>
-<label x="7.874" y="101.092" size="1.778" layer="95"/>
-<wire x1="6.858" y1="101.092" x2="20.066" y2="101.092" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="USART1_RX" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB7"/>
-<wire x1="-209.296" y1="-44.704" x2="-214.122" y2="-44.704" width="0.1524" layer="91"/>
-<label x="-227.33" y="-44.704" size="1.778" layer="95"/>
-<wire x1="-214.122" y1="-44.704" x2="-227.33" y2="-44.704" width="0.15" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="1" pin="TXD"/>
-<label x="7.874" y="103.632" size="1.778" layer="95"/>
-<wire x1="6.858" y1="103.632" x2="20.066" y2="103.632" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="A7" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB8"/>
-<wire x1="-209.296" y1="-47.244" x2="-214.122" y2="-47.244" width="0.1524" layer="91"/>
-<label x="-213.614" y="-47.244" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="B4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB9"/>
@@ -32165,6 +32127,11 @@ MAX481CPA</text>
 <label x="-227.838" y="-52.324" size="1.778" layer="95"/>
 <wire x1="-214.122" y1="-52.324" x2="-227.838" y2="-52.324" width="0.15" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="1" pin="RXD"/>
+<label x="7.874" y="101.092" size="1.778" layer="95"/>
+<wire x1="6.858" y1="101.092" x2="20.066" y2="101.092" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="USART3_RX" class="0">
 <segment>
@@ -32172,6 +32139,11 @@ MAX481CPA</text>
 <wire x1="-209.296" y1="-54.864" x2="-214.122" y2="-54.864" width="0.1524" layer="91"/>
 <label x="-227.838" y="-54.864" size="1.778" layer="95"/>
 <wire x1="-214.122" y1="-54.864" x2="-227.838" y2="-54.864" width="0.15" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="1" pin="TXD"/>
+<label x="7.874" y="103.632" size="1.778" layer="95"/>
+<wire x1="6.858" y1="103.632" x2="20.066" y2="103.632" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M2" class="0">
@@ -32304,7 +32276,6 @@ MAX481CPA</text>
 <label x="-152.4" y="6.096" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="PD10"/>
 <wire x1="-153.416" y1="6.096" x2="-147.828" y2="6.096" width="0.1524" layer="91"/>
-<junction x="-153.416" y="6.096"/>
 </segment>
 </net>
 <net name="N14" class="0">
@@ -32631,11 +32602,6 @@ MAX481CPA</text>
 <wire x1="-254.508" y1="156.464" x2="-229.87" y2="156.464" width="0.1524" layer="91"/>
 <label x="-229.87" y="156.464" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB4"/>
-<label x="-226.06" y="-37.084" size="1.778" layer="95"/>
-<wire x1="-209.296" y1="-37.084" x2="-227.33" y2="-37.084" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="TDI" class="0">
 <segment>
@@ -32678,18 +32644,6 @@ MAX481CPA</text>
 <pinref part="J1" gate="1" pin="11"/>
 <wire x1="-254.508" y1="136.144" x2="-246.888" y2="136.144" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="TDO/SWO" class="0">
-<segment>
-<pinref part="J1" gate="1" pin="13"/>
-<wire x1="-254.508" y1="131.064" x2="-229.108" y2="131.064" width="0.1524" layer="91"/>
-<label x="-229.108" y="131.064" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB3"/>
-<label x="-226.06" y="-34.544" size="1.778" layer="95"/>
-<wire x1="-209.296" y1="-34.544" x2="-227.33" y2="-34.544" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET#" class="0">
@@ -33180,6 +33134,12 @@ MAX481CPA</text>
 <pinref part="X7" gate="-3" pin="S"/>
 <junction x="203.708" y="13.208"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB6"/>
+<wire x1="-209.296" y1="-42.164" x2="-214.122" y2="-42.164" width="0.1524" layer="91"/>
+<label x="-227.33" y="-42.164" size="1.778" layer="95"/>
+<wire x1="-214.122" y1="-42.164" x2="-227.33" y2="-42.164" width="0.15" layer="91"/>
+</segment>
 </net>
 <net name="NRF_CS" class="0">
 <segment>
@@ -33187,6 +33147,12 @@ MAX481CPA</text>
 <label x="183.134" y="10.668" size="1.778" layer="95"/>
 <pinref part="X7" gate="-4" pin="S"/>
 <junction x="203.708" y="10.668"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB7"/>
+<wire x1="-209.296" y1="-44.704" x2="-214.122" y2="-44.704" width="0.1524" layer="91"/>
+<label x="-227.33" y="-44.704" size="1.778" layer="95"/>
+<wire x1="-214.122" y1="-44.704" x2="-227.33" y2="-44.704" width="0.15" layer="91"/>
 </segment>
 </net>
 <net name="NRF_SCK" class="0">
@@ -33196,6 +33162,16 @@ MAX481CPA</text>
 <pinref part="X7" gate="-5" pin="S"/>
 <junction x="203.708" y="8.128"/>
 </segment>
+<segment>
+<pinref part="J1" gate="1" pin="13"/>
+<wire x1="-254.508" y1="131.064" x2="-229.108" y2="131.064" width="0.1524" layer="91"/>
+<label x="-229.108" y="131.064" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB3"/>
+<label x="-226.06" y="-34.544" size="1.778" layer="95"/>
+<wire x1="-209.296" y1="-34.544" x2="-227.33" y2="-34.544" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="NRF_MOSI" class="0">
 <segment>
@@ -33203,6 +33179,11 @@ MAX481CPA</text>
 <label x="183.134" y="5.588" size="1.778" layer="95"/>
 <pinref part="X7" gate="-6" pin="S"/>
 <junction x="203.708" y="5.588"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB5"/>
+<label x="-226.06" y="-39.624" size="1.778" layer="95"/>
+<wire x1="-209.296" y1="-39.624" x2="-227.33" y2="-39.624" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRF_MISO" class="0">
@@ -33212,6 +33193,11 @@ MAX481CPA</text>
 <pinref part="X7" gate="-7" pin="S"/>
 <junction x="203.708" y="3.048"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB4"/>
+<label x="-226.06" y="-37.084" size="1.778" layer="95"/>
+<wire x1="-209.296" y1="-37.084" x2="-227.33" y2="-37.084" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="NRF_IRQ" class="0">
 <segment>
@@ -33219,6 +33205,11 @@ MAX481CPA</text>
 <label x="182.88" y="0.508" size="1.778" layer="95"/>
 <pinref part="X7" gate="-8" pin="S"/>
 <junction x="203.708" y="0.508"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB8"/>
+<label x="-227.33" y="-47.244" size="1.778" layer="95"/>
+<wire x1="-209.296" y1="-47.244" x2="-227.584" y2="-47.244" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
