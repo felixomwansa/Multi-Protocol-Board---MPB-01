@@ -35207,6 +35207,7 @@ nRF51822</text>
 <pinref part="DIR14" gate="G$1" pin="3"/>
 <wire x1="203.2" y1="-8.382" x2="203.2" y2="-11.938" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-11.938" x2="199.136" y2="-11.938" width="0.1524" layer="91"/>
+<label x="199.136" y="-11.938" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X22" gate="A" pin="COL"/>
@@ -35262,6 +35263,7 @@ nRF51822</text>
 <pinref part="DIR15" gate="G$1" pin="3"/>
 <wire x1="202.438" y1="-38.608" x2="202.438" y2="-42.164" width="0.1524" layer="91"/>
 <wire x1="202.438" y1="-42.164" x2="198.374" y2="-42.164" width="0.1524" layer="91"/>
+<label x="198.374" y="-42.164" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X23" gate="A" pin="COL"/>
@@ -35319,6 +35321,7 @@ nRF51822</text>
 <pinref part="DIR16" gate="G$1" pin="3"/>
 <wire x1="202.692" y1="-67.818" x2="202.692" y2="-71.374" width="0.1524" layer="91"/>
 <wire x1="202.692" y1="-71.374" x2="198.628" y2="-71.374" width="0.1524" layer="91"/>
+<label x="198.628" y="-71.374" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X24" gate="A" pin="COL"/>

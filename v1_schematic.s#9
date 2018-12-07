@@ -34917,13 +34917,13 @@ nRF51822</text>
 <wire x1="-14.224" y1="-203.2" x2="-14.224" y2="-200.914" width="0.1524" layer="91"/>
 <wire x1="-14.224" y1="-200.914" x2="-14.224" y2="-197.866" width="0.1524" layer="91"/>
 <wire x1="-14.224" y1="-200.914" x2="-21.336" y2="-200.914" width="0.1524" layer="91"/>
-<label x="-21.336" y="-200.914" size="1.9304" layer="95"/>
+<label x="-21.082" y="-200.914" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DIR9" gate="G$1" pin="3"/>
 <wire x1="34.544" y1="-203.708" x2="34.544" y2="-204.724" width="0.1524" layer="91"/>
 <wire x1="34.544" y1="-204.724" x2="41.91" y2="-204.724" width="0.1524" layer="91"/>
-<label x="37.084" y="-204.724" size="1.9304" layer="95"/>
+<label x="41.91" y="-204.724" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X33" gate="-2" pin="KL"/>
@@ -34971,13 +34971,13 @@ nRF51822</text>
 <wire x1="53.848" y1="-131.826" x2="53.848" y2="-129.794" width="0.1524" layer="91"/>
 <wire x1="53.848" y1="-129.794" x2="53.848" y2="-126.492" width="0.1524" layer="91"/>
 <wire x1="53.848" y1="-129.794" x2="45.974" y2="-129.794" width="0.1524" layer="91"/>
-<label x="46.228" y="-129.794" size="1.9304" layer="95"/>
+<label x="45.974" y="-129.794" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DIR10" gate="G$1" pin="3"/>
 <wire x1="102.616" y1="-132.334" x2="102.616" y2="-133.35" width="0.1524" layer="91"/>
 <wire x1="102.616" y1="-133.35" x2="109.982" y2="-133.35" width="0.1524" layer="91"/>
-<label x="104.902" y="-133.35" size="1.9304" layer="95"/>
+<label x="109.474" y="-133.35" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="170.942" y1="-181.61" x2="164.338" y2="-181.61" width="0.1524" layer="91"/>
