@@ -31298,6 +31298,95 @@ Source: http://www.molex.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="microsd">
+<packages>
+<package name="MICROSD-PUSH-OUT">
+<description>T-Flash Push-Out Micro SD Card Reader
+9 pin SD mode and 7 pin SPI mode compatible
+14.75mm x 14.5mm</description>
+<wire x1="0" y1="0" x2="14.75" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="14.75" y1="0" x2="14.75" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-14.5" x2="14.75" y2="-14.5" width="0.127" layer="21"/>
+<smd name="CD" x="0.825" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="8" x="1.925" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="7" x="3.025" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="6" x="4.125" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="5.225" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="6.325" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="7.425" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="8.525" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="9.625" y="0.225" dx="0.75" dy="0.5" layer="1" rot="R90"/>
+<text x="0" y="3.79" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="1.78" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="7.375" y1="-1" x2="7.375" y2="-13.5" width="0.127" layer="48" style="shortdash"/>
+<circle x="2.425" y="-10.5" radius="1" width="0.127" layer="48"/>
+<circle x="10.425" y="-10.5" radius="1" width="0.127" layer="48"/>
+<wire x1="0.925" y1="-16.8" x2="11.925" y2="-16.8" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0.925" y1="-20.1" x2="0.925" y2="-14.5" width="0.127" layer="48" style="shortdash"/>
+<wire x1="11.925" y1="-20.1" x2="11.925" y2="-14.5" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0.925" y1="-20.1" x2="11.925" y2="-20.1" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="-12.75" x2="5.04378125" y2="-12.75" width="0.127" layer="48"/>
+<wire x1="5.04378125" y1="-12.75" x2="6.938890625" y2="-12.9312125" width="0.127" layer="48"/>
+<wire x1="6.938890625" y1="-12.9312125" x2="7.314596875" y2="-13.003728125" width="0.127" layer="48"/>
+<wire x1="7.314596875" y1="-13.003728125" x2="9.2694625" y2="-13.56936875" width="0.127" layer="48"/>
+<wire x1="9.2694625" y1="-13.56936875" x2="10.962109375" y2="-14.23105625" width="0.127" layer="48"/>
+<wire x1="10.962109375" y1="-14.23105625" x2="11.5" y2="-14.5" width="0.127" layer="48"/>
+<smd name="G1" x="-0.375" y="-0.8" dx="1.2" dy="1.8" layer="1"/>
+<smd name="G2" x="-0.375" y="-10.1" dx="1.2" dy="2.2" layer="1"/>
+<smd name="G3" x="13.95" y="-0.55" dx="1.6" dy="1.5" layer="1"/>
+<smd name="G4" x="15.125" y="-10.1" dx="1.2" dy="2.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MICROSD">
+<description>T-Flash Push/Push Micro SD Card Reader
+9 pin SD mode or 7 pin SPI mode compatible.</description>
+<wire x1="-63.5" y1="17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-33.02" x2="-63.5" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-63.5" y1="-33.02" x2="-63.5" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="17.78" width="0.254" layer="94" curve="-40.75287"/>
+<pin name="DAT2" x="-68.58" y="12.7" visible="pin" length="middle"/>
+<pin name="CD_DAT3_CS" x="-68.58" y="7.62" visible="pin" length="middle"/>
+<pin name="CMD_DIN" x="-68.58" y="2.54" visible="pin" length="middle"/>
+<pin name="VSS" x="-68.58" y="-12.7" visible="pin" length="middle"/>
+<pin name="VDD" x="-68.58" y="-2.54" visible="pin" length="middle"/>
+<pin name="CLK" x="-68.58" y="-7.62" visible="pin" length="middle"/>
+<pin name="DAT0_DO" x="-68.58" y="-17.78" visible="pin" length="middle"/>
+<text x="-60.96" y="20.32" size="1.778" layer="94">&gt;NAME</text>
+<text x="-60.96" y="-38.1" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="DAT1" x="-68.58" y="-22.86" visible="pin" length="middle"/>
+<pin name="CD" x="-68.58" y="-27.94" visible="pin" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROSD-PUSH-OUT">
+<description>T-Flash Push-Out Micro SD Card Reader
+14.75mm x 14.5mm SMD with external pins</description>
+<gates>
+<gate name="G$1" symbol="MICROSD" x="40.64" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="MICROSD-PUSH-OUT">
+<connects>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="CD_DAT3_CS" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD_DIN" pad="3"/>
+<connect gate="G$1" pin="DAT0_DO" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6 G1 G2 G3 G4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -31649,6 +31738,7 @@ Source: http://www.molex.com</description>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
+<part name="U$3" library="microsd" deviceset="MICROSD-PUSH-OUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32048,6 +32138,7 @@ nRF51822</text>
 <instance part="H1" gate="G$1" x="87.122" y="-177.8"/>
 <instance part="H2" gate="G$1" x="87.122" y="-186.944"/>
 <instance part="H3" gate="G$1" x="87.122" y="-196.85"/>
+<instance part="U$3" gate="G$1" x="-366.776" y="-187.452" rot="MR0"/>
 </instances>
 <busses>
 <bus name="B$1">
@@ -34650,8 +34741,11 @@ nRF51822</text>
 <segment>
 <pinref part="X6" gate="G$1" pin="1"/>
 <label x="-252.476" y="-183.388" size="1.778" layer="95"/>
-<wire x1="-255.016" y1="-183.388" x2="-230.378" y2="-183.388" width="0.1524" layer="91"/>
+<wire x1="-255.016" y1="-183.388" x2="-253.492" y2="-183.388" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="-253.492" y1="-183.388" x2="-230.378" y2="-183.388" width="0.1524" layer="91"/>
+<wire x1="-253.492" y1="-183.388" x2="-253.492" y2="-179.832" width="0.1524" layer="91"/>
+<wire x1="-253.492" y1="-179.832" x2="-298.45" y2="-179.832" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PC11"/>
@@ -34662,9 +34756,12 @@ nRF51822</text>
 <net name="SD_CMD" class="0">
 <segment>
 <pinref part="X6" gate="G$1" pin="2"/>
-<wire x1="-255.016" y1="-185.928" x2="-237.236" y2="-185.928" width="0.1524" layer="91"/>
+<wire x1="-255.016" y1="-185.928" x2="-241.3" y2="-185.928" width="0.1524" layer="91"/>
 <label x="-252.476" y="-185.928" size="1.778" layer="95"/>
 <pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="-241.3" y1="-185.928" x2="-237.236" y2="-185.928" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="-185.928" x2="-241.3" y2="-184.912" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="-184.912" x2="-298.45" y2="-184.912" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PD2"/>
