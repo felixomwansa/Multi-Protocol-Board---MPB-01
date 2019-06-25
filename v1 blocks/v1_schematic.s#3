@@ -31782,7 +31782,7 @@ nRF51822</text>
 <instance part="X8" gate="-7" x="233.68" y="83.312"/>
 <instance part="X8" gate="-8" x="233.68" y="80.772"/>
 <instance part="SUPPLY39" gate="GND" x="226.822" y="77.47"/>
-<instance part="R33" gate="G$1" x="-200.152" y="-204.47" rot="MR0"/>
+<instance part="R33" gate="G$1" x="-198.628" y="-204.47" rot="MR0"/>
 <instance part="R34" gate="G$1" x="-200.152" y="-209.55"/>
 <instance part="R35" gate="G$1" x="-202.184" y="-173.99"/>
 <instance part="R30" gate="G$1" x="-200.406" y="-194.31" rot="MR0"/>
@@ -32437,7 +32437,7 @@ nRF51822</text>
 <wire x1="-192.024" y1="-209.55" x2="-192.024" y2="-211.328" width="0.1524" layer="91"/>
 <wire x1="-195.072" y1="-209.55" x2="-192.024" y2="-209.55" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="-195.072" y1="-204.47" x2="-192.024" y2="-204.47" width="0.1524" layer="91"/>
+<wire x1="-193.548" y1="-204.47" x2="-192.024" y2="-204.47" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="-195.326" y1="-194.31" x2="-192.024" y2="-194.31" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
@@ -34587,10 +34587,10 @@ nRF51822</text>
 <segment>
 <label x="-216.154" y="-204.47" size="1.778" layer="95"/>
 <pinref part="U$3" gate="G$1" pin="DAT0_DO"/>
-<wire x1="-204.216" y1="-204.47" x2="-205.232" y2="-204.47" width="0.1524" layer="91"/>
+<wire x1="-204.216" y1="-204.47" x2="-203.708" y2="-204.47" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="-205.232" y1="-204.47" x2="-219.964" y2="-204.47" width="0.1524" layer="91"/>
-<junction x="-205.232" y="-204.47"/>
+<wire x1="-203.708" y1="-204.47" x2="-219.964" y2="-204.47" width="0.1524" layer="91"/>
+<junction x="-203.708" y="-204.47"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PC8"/>

@@ -4374,8 +4374,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PE-53116NL" x="-32.512" y="31.242" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="673-PE-53116NL" x="-32.512" y="31.242" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="" x="9.779" y="10.287"/>
-<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="" x="9.779" y="13.716"/>
+<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="" x="10.287" y="10.922"/>
+<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="" x="10.287" y="14.859"/>
 <element name="NPN1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ_2W" package3d_urn="urn:adsk.eagle:package:15476/1" value="" x="62.158871875" y="-159.741325"/>
 <element name="NPN10" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ_2W" package3d_urn="urn:adsk.eagle:package:15476/1" value="" x="-6.421128125" y="-159.741325"/>
 <element name="NPN2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ_2W" package3d_urn="urn:adsk.eagle:package:15476/1" value="" x="54.538871875" y="-159.741325"/>
@@ -4510,14 +4510,14 @@ design rules under a new name.</description>
 <element name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="-180.34" y="127">
 <attribute name="SPICEPREFIX" value="R" x="-180.34" y="127" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1k" x="14.986" y="10.287" rot="R180"/>
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1k" x="15.748" y="10.922" rot="R180"/>
 <element name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="-186.69" y="127">
 <attribute name="SPICEPREFIX" value="R" x="-186.69" y="127" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="-193.04" y="127">
 <attribute name="SPICEPREFIX" value="R" x="-193.04" y="127" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1k" x="14.986" y="13.843" rot="R180"/>
+<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1k" x="15.748" y="14.859" rot="R180"/>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K" x="25.019" y="48.26" rot="R90">
 <attribute name="SPICEPREFIX" value="R" x="25.019" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -4810,9 +4810,9 @@ design rules under a new name.</description>
 <wire x1="-0.594" y1="8.694" x2="2.656" y2="15.944" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.244" y1="8.694" x2="-0.594" y2="8.694" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.321" y1="5.969" x2="-1.244" y2="8.694" width="0" layer="19" extent="1-1"/>
-<wire x1="15.936" y1="13.843" x2="5.715" y2="20.305" width="0" layer="19" extent="1-1"/>
-<wire x1="15.936" y1="10.287" x2="15.936" y2="13.843" width="0" layer="19" extent="1-1"/>
-<wire x1="60.96" y1="14.732" x2="15.936" y2="13.843" width="0" layer="19" extent="1-1"/>
+<wire x1="16.698" y1="14.859" x2="5.715" y2="20.305" width="0" layer="19" extent="1-1"/>
+<wire x1="16.698" y1="10.922" x2="16.698" y2="14.859" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="14.732" x2="16.698" y2="14.859" width="0" layer="19" extent="1-1"/>
 <wire x1="63.5" y1="14.732" x2="60.96" y2="14.732" width="0" layer="19" extent="1-1"/>
 <wire x1="64.262" y1="37.846" x2="63.5" y2="14.732" width="0" layer="19" extent="1-1"/>
 <wire x1="57.912" y1="45.466" x2="64.262" y2="37.846" width="0" layer="19" extent="1-1"/>
@@ -5303,12 +5303,12 @@ design rules under a new name.</description>
 <signal name="N$14">
 <contactref element="LED2" pad="C"/>
 <contactref element="IC2" pad="23"/>
-<wire x1="1.356" y1="8.694" x2="8.729" y2="10.287" width="0" layer="19" extent="1-1"/>
+<wire x1="1.356" y1="8.694" x2="9.237" y2="10.922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="LED3" pad="C"/>
 <contactref element="IC2" pad="22"/>
-<wire x1="0.706" y1="8.694" x2="8.729" y2="13.716" width="0" layer="19" extent="1-1"/>
+<wire x1="0.706" y1="8.694" x2="9.237" y2="14.859" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="S2" pad="4"/>
@@ -5720,12 +5720,12 @@ design rules under a new name.</description>
 <signal name="N$16">
 <contactref element="LED3" pad="A"/>
 <contactref element="R6" pad="2"/>
-<wire x1="10.829" y1="13.716" x2="14.036" y2="13.843" width="0" layer="19" extent="1-1"/>
+<wire x1="11.337" y1="14.859" x2="14.798" y2="14.859" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R5" pad="2"/>
 <contactref element="LED2" pad="A"/>
-<wire x1="10.829" y1="10.287" x2="14.036" y2="10.287" width="0" layer="19" extent="1-1"/>
+<wire x1="11.337" y1="10.922" x2="14.798" y2="10.922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="C11" pad="2"/>
