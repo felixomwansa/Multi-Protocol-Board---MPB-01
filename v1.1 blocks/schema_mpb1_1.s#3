@@ -42819,16 +42819,6 @@ STM32F407/417
 <label x="71.12" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="COM" gate="A" pin="13"/>
-<wire x1="53.34" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
-<label x="43.18" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="COM" gate="A" pin="14"/>
-<wire x1="60.96" y1="154.94" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
-<label x="73.66" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="I/O" gate="A" pin="15"/>
 <wire x1="53.34" y1="218.44" x2="43.18" y2="218.44" width="0.1524" layer="91"/>
 <label x="33.02" y="218.44" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -44138,12 +44128,22 @@ STM32F407/417
 <label x="260.604" y="88.138" size="1.778" layer="95"/>
 <wire x1="279.4" y1="88.138" x2="265.684" y2="88.138" width="0.15" layer="91"/>
 </segment>
+<segment>
+<pinref part="COM" gate="A" pin="13"/>
+<wire x1="53.34" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
+<label x="43.18" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="USB_OTG_HS_DP" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB15"/>
 <label x="260.604" y="85.598" size="1.778" layer="95"/>
 <wire x1="284.226" y1="85.598" x2="265.684" y2="85.598" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="COM" gate="A" pin="14"/>
+<wire x1="60.96" y1="154.94" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
+<label x="73.66" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
