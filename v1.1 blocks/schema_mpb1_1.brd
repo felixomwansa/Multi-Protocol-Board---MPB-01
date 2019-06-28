@@ -172,6 +172,8 @@
 <wire x1="70.536" y1="8.636" x2="70.536" y2="93.97" width="0" layer="20"/>
 <wire x1="70.536" y1="93.97" x2="-0.254" y2="93.97" width="0" layer="20"/>
 <wire x1="-0.254" y1="93.97" x2="-0.254" y2="8.636" width="0" layer="20"/>
+<dimension x1="-0.254" y1="8.128" x2="70.612" y2="8.128" x3="35.179" y3="-0.254" textsize="1.778" layer="21"/>
+<dimension x1="72.136" y1="8.382" x2="71.882" y2="93.726" x3="74.8014625" y3="51.062309375" textsize="1.778" layer="21"/>
 </plain>
 <libraries>
 <library name="holes" urn="urn:adsk.eagle:library:237">
@@ -5805,7 +5807,10 @@ design rules under a new name.</description>
 <wire x1="43.522" y1="63.319" x2="43.322" y2="63.119" width="0.508" layer="1"/>
 <wire x1="43.322" y1="63.119" x2="43.703" y2="62.738" width="0.508" layer="1"/>
 <wire x1="43.703" y1="62.738" x2="46.775" y2="62.738" width="0.508" layer="1"/>
-<wire x1="40.76878125" y1="53.119203125" x2="43.703" y2="62.738" width="0" layer="19" extent="1-1"/>
+<wire x1="46.775" y1="62.738" x2="46.775" y2="57.443" width="0.254" layer="1"/>
+<wire x1="46.775" y1="57.443" x2="42.418" y2="53.086" width="0.254" layer="1"/>
+<wire x1="42.418" y1="53.086" x2="42.384796875" y2="53.119203125" width="0.254" layer="1"/>
+<wire x1="42.384796875" y1="53.119203125" x2="40.76878125" y2="53.119203125" width="0.254" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="U$2" pad="73"/>
@@ -5819,7 +5824,12 @@ design rules under a new name.</description>
 <contactref element="C66" pad="1"/>
 <wire x1="48.475" y1="62.738" x2="48.475" y2="66.294" width="0.508" layer="1"/>
 <wire x1="48.475" y1="66.294" x2="48.475" y2="69.723" width="0.508" layer="1"/>
-<wire x1="40.76878125" y1="52.619203125" x2="48.475" y2="62.738" width="0" layer="19" extent="1-1"/>
+<wire x1="48.475" y1="62.738" x2="49.53" y2="61.683" width="0.254" layer="1"/>
+<wire x1="49.53" y1="61.683" x2="49.53" y2="53.848" width="0.254" layer="1"/>
+<wire x1="49.53" y1="53.848" x2="48.26" y2="52.578" width="0.254" layer="1"/>
+<wire x1="48.26" y1="52.578" x2="41.656" y2="52.578" width="0.254" layer="1"/>
+<wire x1="41.656" y1="52.578" x2="41.614796875" y2="52.619203125" width="0.254" layer="1"/>
+<wire x1="41.614796875" y1="52.619203125" x2="40.76878125" y2="52.619203125" width="0.254" layer="1"/>
 </signal>
 <signal name="USART2_TX">
 <contactref element="U$2" pad="86"/>
