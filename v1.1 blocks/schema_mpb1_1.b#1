@@ -9,7 +9,7 @@
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="14" fill="9" visible="yes" active="yes"/>
+<layer number="2" name="GND" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,8 +22,8 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="3.3V" color="13" fill="9" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="3.3V" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -5814,8 +5814,8 @@ design rules under a new name.</description>
 <via x="45.847" y="38.227" extent="1-16" drill="0.35"/>
 <wire x1="45.847" y1="38.227" x2="45.974" y2="38.1" width="0.8128" layer="15"/>
 <wire x1="39.16878125" y1="41.019203125" x2="39.16878125" y2="40.33321875" width="0.3048" layer="1"/>
-<wire x1="39.16878125" y1="40.33321875" x2="39.624" y2="39.878" width="0.3048" layer="1"/>
-<via x="39.624" y="39.878" extent="1-16" drill="0.35"/>
+<wire x1="39.16878125" y1="40.33321875" x2="39.624" y2="39.624" width="0.3048" layer="1"/>
+<via x="39.624" y="39.624" extent="1-16" drill="0.35"/>
 <wire x1="19.431" y1="42.457" x2="19.431" y2="40.894" width="0.8128" layer="1"/>
 <via x="19.431" y="40.894" extent="1-16" drill="0.35"/>
 <wire x1="19.431" y1="40.894" x2="19.304" y2="40.894" width="0.8128" layer="15"/>
@@ -7002,6 +7002,46 @@ design rules under a new name.</description>
 <via x="40.2336" y="33.528" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
+<errors>
+<approved hash="19,1,ed8dea562446239d"/>
+<approved hash="19,1,ef181607d8162109"/>
+<approved hash="19,1,6d936a5408440f83"/>
+<approved hash="19,1,6f069605f4140d17"/>
+<approved hash="19,1,5d1a441df20deb0a"/>
+<approved hash="19,1,23f4768b32590052"/>
+<approved hash="19,1,016901488747fb9f"/>
+<approved hash="19,1,f3690f6a38643080"/>
+<approved hash="19,1,ad1ab42c563c4f0a"/>
+<approved hash="19,2,a30dc817e40a79f5"/>
+<approved hash="19,2,28e94728ee8c77a8"/>
+<approved hash="19,2,6828e508640d9bc7"/>
+<approved hash="19,2,e3cc6a376e8b959a"/>
+<approved hash="19,2,23f4768b32590052"/>
+<approved hash="19,2,016901488747fb9f"/>
+<approved hash="19,2,d941b402729679a3"/>
+<approved hash="19,2,f3690f6a38643080"/>
+<approved hash="19,2,74fb7cbff6ae989c"/>
+<approved hash="19,15,8c9377879df0cc11"/>
+<approved hash="19,15,a6e89b7fb650e0b4"/>
+<approved hash="19,15,74fb7cbff6ae989c"/>
+<approved hash="19,15,a30dc817e40a79f5"/>
+<approved hash="19,15,28e94728ee8c77a8"/>
+<approved hash="19,15,6828e508640d9bc7"/>
+<approved hash="19,15,e3cc6a376e8b959a"/>
+<approved hash="19,15,23f4768b32590052"/>
+<approved hash="19,15,016901488747fb9f"/>
+<approved hash="19,15,f3690f6a38643080"/>
+<approved hash="19,15,d941b402729679a3"/>
+<approved hash="19,16,ad1ab42c563c4f0a"/>
+<approved hash="19,16,ed8dea562446239d"/>
+<approved hash="19,16,ef181607d8162109"/>
+<approved hash="19,16,6d936a5408440f83"/>
+<approved hash="19,16,6f069605f4140d17"/>
+<approved hash="19,16,23f4768b32590052"/>
+<approved hash="19,16,016901488747fb9f"/>
+<approved hash="19,16,f3690f6a38643080"/>
+<approved hash="19,16,5d1a441df20deb0a"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
