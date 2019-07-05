@@ -43023,6 +43023,17 @@ STM32F407/417
 <wire x1="60.96" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
 <label x="73.66" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="C56" gate="G$1" pin="1"/>
+<pinref part="C55" gate="G$1" pin="1"/>
+<wire x1="126.492" y1="172.974" x2="135.89" y2="172.974" width="0.15" layer="91"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
+<wire x1="116.078" y1="174.498" x2="116.078" y2="172.974" width="0.15" layer="91"/>
+<wire x1="116.078" y1="172.974" x2="116.078" y2="172.72" width="0.15" layer="91"/>
+<wire x1="116.078" y1="172.974" x2="126.492" y2="172.974" width="0.15" layer="91"/>
+<pinref part="C54" gate="G$1" pin="1"/>
+<junction x="116.078" y="172.974"/>
+</segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
@@ -44133,19 +44144,6 @@ STM32F407/417
 <pinref part="U$2" gate="G$1" pin="PB15"/>
 <label x="265.684" y="85.598" size="1.778" layer="95"/>
 <wire x1="284.226" y1="85.598" x2="265.684" y2="85.598" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+3V3" class="1">
-<segment>
-<pinref part="C56" gate="G$1" pin="1"/>
-<pinref part="C55" gate="G$1" pin="1"/>
-<wire x1="126.492" y1="172.974" x2="135.89" y2="172.974" width="0.15" layer="91"/>
-<pinref part="+3V15" gate="G$1" pin="+3V3"/>
-<wire x1="116.078" y1="174.498" x2="116.078" y2="172.974" width="0.15" layer="91"/>
-<wire x1="116.078" y1="172.974" x2="116.078" y2="172.72" width="0.15" layer="91"/>
-<wire x1="116.078" y1="172.974" x2="126.492" y2="172.974" width="0.15" layer="91"/>
-<pinref part="C54" gate="G$1" pin="1"/>
-<junction x="116.078" y="172.974"/>
 </segment>
 </net>
 </nets>

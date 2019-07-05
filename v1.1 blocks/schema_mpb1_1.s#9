@@ -43012,7 +43012,6 @@ STM32F407/417
 <junction x="116.078" y="196.088"/>
 <pinref part="C51" gate="G$1" pin="1"/>
 <junction x="172.72" y="196.088"/>
-<label x="191.516" y="196.088" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="116.078" y1="174.498" x2="116.078" y2="172.974" width="0.15" layer="91"/>

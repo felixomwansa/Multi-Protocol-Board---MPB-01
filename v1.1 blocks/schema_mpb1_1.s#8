@@ -42416,7 +42416,7 @@ or
 <wire x1="-7.62" y1="27.94" x2="-7.62" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="152.4" y1="-22.86" x2="152.4" y2="-17.78" width="0.1524" layer="91"/>
@@ -42956,7 +42956,7 @@ STM32F407/417
 <label x="261.366" y="118.618" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="255.016" y1="199.898" x2="250.19" y2="199.898" width="0.1524" layer="91"/>
