@@ -172,8 +172,8 @@
 <wire x1="85.598" y1="71.044" x2="0.264" y2="71.044" width="0" layer="20"/>
 <wire x1="0.264" y1="71.044" x2="0.264" y2="0.254" width="0" layer="20"/>
 <wire x1="0.264" y1="0.254" x2="85.598" y2="0.254" width="0" layer="20"/>
-<dimension x1="86.106" y1="0.254" x2="86.106" y2="71.12" x3="94.488" y3="35.687" textsize="1.778" layer="21"/>
-<dimension x1="85.852" y1="72.644" x2="0.508" y2="72.39" x3="43.1716875" y3="75.3094625" textsize="1.778" layer="21"/>
+<dimension x1="0" y1="-1.524" x2="85.598" y2="-1.524" x3="42.799" y3="-7.112" textsize="1.778" layer="21"/>
+<dimension x1="87.122" y1="0.254" x2="87.122" y2="70.866" x3="95.25" y3="35.56" textsize="1.778" layer="21"/>
 </plain>
 <libraries>
 <library name="holes" urn="urn:adsk.eagle:library:237">
