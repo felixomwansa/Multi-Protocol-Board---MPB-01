@@ -43290,6 +43290,11 @@ STM32F407/417
 <label x="265.176" y="138.938" size="1.778" layer="95"/>
 <wire x1="279.4" y1="138.938" x2="265.176" y2="138.938" width="0.15" layer="91"/>
 </segment>
+<segment>
+<pinref part="COM" gate="A" pin="6"/>
+<wire x1="60.96" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
+<label x="73.66" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CAN1_TX" class="0">
 <segment>
@@ -43302,11 +43307,6 @@ STM32F407/417
 <pinref part="COM" gate="A" pin="5"/>
 <wire x1="53.34" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
 <label x="43.18" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="COM" gate="A" pin="6"/>
-<wire x1="60.96" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
-<label x="73.66" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RX6" class="0">
