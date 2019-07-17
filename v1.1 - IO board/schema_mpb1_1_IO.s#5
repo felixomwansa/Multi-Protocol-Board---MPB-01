@@ -7599,13 +7599,6 @@ DDEController.pdf</description>
 </net>
 <net name="COM5" class="0">
 <segment>
-<wire x1="58.42" y1="104.14" x2="60.452" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="60.452" y1="104.14" x2="60.452" y2="101.092" width="0.1524" layer="91"/>
-<wire x1="60.452" y1="101.092" x2="65.786" y2="101.092" width="0.1524" layer="91"/>
-<label x="65.532" y="101.092" size="1.778" layer="95" xref="yes"/>
-<pinref part="0C11" gate="A" pin="EMIT"/>
-</segment>
-<segment>
 <wire x1="58.42" y1="71.12" x2="60.452" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="60.452" y1="71.12" x2="60.452" y2="68.072" width="0.1524" layer="91"/>
 <wire x1="60.452" y1="68.072" x2="65.786" y2="68.072" width="0.1524" layer="91"/>
@@ -8121,6 +8114,13 @@ DDEController.pdf</description>
 <wire x1="179.07" y1="30.226" x2="179.07" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="179.07" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
 <label x="187.96" y="30.48" size="1.9304" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="104.14" x2="60.452" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="60.452" y1="104.14" x2="60.452" y2="101.092" width="0.1524" layer="91"/>
+<wire x1="60.452" y1="101.092" x2="65.786" y2="101.092" width="0.1524" layer="91"/>
+<label x="65.532" y="101.092" size="1.778" layer="95" xref="yes"/>
+<pinref part="0C11" gate="A" pin="EMIT"/>
 </segment>
 </net>
 </nets>

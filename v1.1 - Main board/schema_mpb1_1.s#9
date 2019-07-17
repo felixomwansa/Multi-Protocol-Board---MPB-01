@@ -42146,7 +42146,6 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <part name="I/O" library="pinhead-2" deviceset="PINHD-2X10" device="_2.54"/>
 <part name="SERIAL" library="pinhead-2" deviceset="PINHD-2X10" device="_2.54"/>
 <part name="COM" library="pinhead-2" deviceset="PINHD-2X10" device="_2.54"/>
-<part name="JP4" library="pinhead-2" deviceset="PINHD-2X10" device="_2.54"/>
 <part name="IC1" library="silabs-2" deviceset="CP210*" device="" technology="2"/>
 <part name="X2" library="con-berg" deviceset="PN61729-S" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
@@ -42578,7 +42577,6 @@ STM32F407/417
 <instance part="I/O" gate="A" x="55.88" y="226.06"/>
 <instance part="SERIAL" gate="A" x="55.88" y="193.04"/>
 <instance part="COM" gate="A" x="55.88" y="160.02"/>
-<instance part="JP4" gate="A" x="55.88" y="124.46"/>
 <instance part="IC1" gate="G$1" x="154.94" y="78.74"/>
 <instance part="X2" gate="G$1" x="96.52" y="83.82" rot="MR0"/>
 <instance part="P+2" gate="1" x="137.16" y="116.84" smashed="yes">
