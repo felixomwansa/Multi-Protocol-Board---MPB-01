@@ -42677,10 +42677,10 @@ STM32F407/417
 <instance part="FRAME1" gate="G$1" x="17.78" y="-7.62"/>
 <instance part="Q2" gate="G$1" x="383.032" y="173.736"/>
 <instance part="Q1" gate="G$1" x="348.742" y="73.406"/>
-<instance part="B1" gate="G$1" x="239.268" y="118.618" rot="MR0"/>
-<instance part="SUPPLY4" gate="GND" x="239.268" y="104.648"/>
-<instance part="+3V1" gate="G$1" x="239.268" y="131.572" rot="MR0"/>
-<instance part="R4" gate="G$1" x="251.46" y="118.618"/>
+<instance part="B1" gate="G$1" x="224.028" y="118.618" rot="MR0"/>
+<instance part="SUPPLY4" gate="GND" x="224.028" y="104.648"/>
+<instance part="+3V1" gate="G$1" x="224.028" y="131.572" rot="MR0"/>
+<instance part="R4" gate="G$1" x="236.22" y="118.618"/>
 <instance part="B0" gate="G$1" x="224.536" y="234.95" rot="MR0"/>
 <instance part="SUPPLY7" gate="GND" x="224.536" y="225.806"/>
 <instance part="+3V2" gate="G$1" x="224.536" y="245.11" rot="MR0"/>
@@ -42856,7 +42856,7 @@ STM32F407/417
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="3"/>
-<wire x1="239.268" y1="113.538" x2="239.268" y2="107.188" width="0.1524" layer="91"/>
+<wire x1="224.028" y1="113.538" x2="224.028" y2="107.188" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -43009,9 +43009,9 @@ STM32F407/417
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="118.618" x2="261.366" y2="118.618" width="0.1524" layer="91"/>
-<wire x1="261.366" y1="118.872" x2="261.366" y2="118.618" width="0.1524" layer="91"/>
-<label x="261.366" y="118.618" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="241.3" y1="118.618" x2="246.126" y2="118.618" width="0.1524" layer="91"/>
+<wire x1="246.126" y1="118.872" x2="246.126" y2="118.618" width="0.1524" layer="91"/>
+<label x="246.126" y="118.618" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="1">
@@ -43073,10 +43073,10 @@ STM32F407/417
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="1"/>
-<wire x1="239.268" y1="123.698" x2="239.268" y2="128.778" width="0.1524" layer="91"/>
+<wire x1="224.028" y1="123.698" x2="224.028" y2="128.778" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="239.268" y1="123.698" x2="239.268" y2="129.032" width="0.1524" layer="91"/>
-<junction x="239.268" y="123.698"/>
+<wire x1="224.028" y1="123.698" x2="224.028" y2="129.032" width="0.1524" layer="91"/>
+<junction x="224.028" y="123.698"/>
 </segment>
 <segment>
 <pinref part="B0" gate="G$1" pin="1"/>
@@ -43847,7 +43847,7 @@ STM32F407/417
 <wire x1="340.106" y1="210.058" x2="364.744" y2="210.058" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NRF_CE" class="0">
+<net name="NRF_TX" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB6"/>
 <wire x1="284.226" y1="108.458" x2="279.4" y2="108.458" width="0.1524" layer="91"/>
@@ -43860,7 +43860,7 @@ STM32F407/417
 <label x="73.66" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="NRF_CS" class="0">
+<net name="NRF_RX" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB7"/>
 <wire x1="284.226" y1="105.918" x2="279.4" y2="105.918" width="0.1524" layer="91"/>
@@ -43873,7 +43873,7 @@ STM32F407/417
 <label x="43.18" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="NRF_SCK" class="0">
+<net name="ESP_TX" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB3"/>
 <label x="266.446" y="116.078" size="1.778" layer="95"/>
@@ -43890,7 +43890,7 @@ STM32F407/417
 <label x="43.18" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="NRF_MOSI" class="0">
+<net name="ESP_RX" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB5"/>
 <label x="266.446" y="110.998" size="1.778" layer="95"/>
@@ -43902,7 +43902,7 @@ STM32F407/417
 <label x="73.66" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="NRF_MISO" class="0">
+<net name="PB4" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB4"/>
 <label x="266.446" y="113.538" size="1.778" layer="95"/>
@@ -43914,7 +43914,7 @@ STM32F407/417
 <label x="43.18" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="NRF_IRQ" class="0">
+<net name="PB8" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB8"/>
 <label x="266.192" y="103.378" size="1.778" layer="95"/>
@@ -43944,7 +43944,7 @@ STM32F407/417
 <segment>
 <pinref part="B1" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="244.348" y1="118.618" x2="246.38" y2="118.618" width="0.1524" layer="91"/>
+<wire x1="229.108" y1="118.618" x2="231.14" y2="118.618" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
