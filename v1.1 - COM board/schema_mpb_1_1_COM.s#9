@@ -9422,6 +9422,11 @@ PCA8C250</text>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="287.02" y1="120.396" x2="290.322" y2="120.396" width="0.15" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="330.2" y1="114.3" x2="320.04" y2="114.3" width="0.1524" layer="91"/>
+<label x="320.04" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="+3.3V" class="0">
 <segment>
@@ -9736,6 +9741,11 @@ PCA8C250</text>
 <pinref part="IC3" gate="G$1" pin="CANH"/>
 <junction x="287.02" y="133.096"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-3" pin="KL"/>
+<wire x1="330.2" y1="124.46" x2="320.04" y2="124.46" width="0.1524" layer="91"/>
+<label x="320.04" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CANL" class="0">
 <segment>
@@ -9746,23 +9756,10 @@ PCA8C250</text>
 <wire x1="293.116" y1="122.936" x2="300.482" y2="122.936" width="0.15" layer="91"/>
 <label x="299.974" y="122.936" size="1.778" layer="95" rot="R180"/>
 </segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="X1" gate="-3" pin="KL"/>
-<wire x1="330.2" y1="124.46" x2="320.04" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
 <segment>
 <pinref part="X1" gate="-2" pin="KL"/>
 <wire x1="330.2" y1="119.38" x2="320.04" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="X1" gate="-1" pin="KL"/>
-<wire x1="330.2" y1="114.3" x2="320.04" y2="114.3" width="0.1524" layer="91"/>
+<label x="320.04" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC_CAN" class="0">

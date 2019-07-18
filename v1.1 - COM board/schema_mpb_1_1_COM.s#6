@@ -9639,11 +9639,6 @@ PCA8C250</text>
 </net>
 <net name="ESP_TX" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="TXD0"/>
-<wire x1="109.22" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
-<label x="116.84" y="76.2" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP3" gate="A" pin="3"/>
 <wire x1="172.72" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="154.94" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -9653,13 +9648,13 @@ PCA8C250</text>
 <wire x1="137.16" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
 <label x="124.46" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="TXD0"/>
+<wire x1="109.22" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="116.84" y="76.2" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="ESP_RX" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="RXD0"/>
-<wire x1="109.22" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<label x="116.84" y="73.66" size="1.016" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="JP3" gate="A" pin="4"/>
 <wire x1="172.72" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
@@ -9669,6 +9664,11 @@ PCA8C250</text>
 <pinref part="JP5" gate="-2" pin="1"/>
 <wire x1="137.16" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 <label x="124.46" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="RXD0"/>
+<wire x1="109.22" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<label x="116.84" y="73.66" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NRF_SWDIO" class="0">
@@ -9881,16 +9881,18 @@ PCA8C250</text>
 <label x="293.878" y="140.97" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="ESP_RX#" class="0">
 <segment>
 <pinref part="JP5" gate="-1" pin="1"/>
 <wire x1="137.16" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<label x="124.46" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="ESP_TX#" class="0">
 <segment>
 <pinref part="JP5" gate="-1" pin="2"/>
 <wire x1="137.16" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<label x="124.46" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">

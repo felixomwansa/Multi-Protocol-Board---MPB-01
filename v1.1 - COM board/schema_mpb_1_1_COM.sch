@@ -10055,7 +10055,7 @@ PCA8C250</text>
 <segment>
 <pinref part="SJ6" gate="1" pin="1"/>
 <wire x1="284.48" y1="200.66" x2="274.32" y2="200.66" width="0.1524" layer="91"/>
-<label x="264.16" y="200.66" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="261.62" y="200.66" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="200.66" x2="261.62" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="195.58" x2="274.32" y2="200.66" width="0.1524" layer="91"/>

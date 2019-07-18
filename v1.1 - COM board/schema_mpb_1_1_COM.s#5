@@ -9356,13 +9356,6 @@ PCA8C250</text>
 <junction x="261.62" y="135.636"/>
 </segment>
 </net>
-<net name="PB5" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="271.78" y1="55.88" x2="256.54" y2="55.88" width="0.1524" layer="91"/>
-<label x="256.54" y="55.88" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="NRF_TX" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="9"/>
@@ -9571,13 +9564,6 @@ PCA8C250</text>
 <label x="292.1" y="53.34" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PB3" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="279.4" y1="55.88" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
-<label x="292.1" y="55.88" size="1.4224" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="CAN1_TX" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
@@ -9644,14 +9630,14 @@ PCA8C250</text>
 <label x="154.94" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="-2" pin="2"/>
-<wire x1="137.16" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<label x="124.46" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP5" gate="-3" pin="2"/>
+<wire x1="137.16" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<label x="124.46" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="TXD0"/>
-<wire x1="109.22" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
-<label x="116.84" y="76.2" size="1.016" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="279.4" y1="55.88" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
+<label x="292.1" y="55.88" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ESP_RX" class="0">
@@ -9661,14 +9647,14 @@ PCA8C250</text>
 <label x="154.94" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="-2" pin="1"/>
-<wire x1="137.16" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
-<label x="124.46" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP5" gate="-3" pin="1"/>
+<wire x1="137.16" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<label x="124.46" y="17.78" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="RXD0"/>
-<wire x1="109.22" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<label x="116.84" y="73.66" size="1.016" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="271.78" y1="55.88" x2="256.54" y2="55.88" width="0.1524" layer="91"/>
+<label x="256.54" y="55.88" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="NRF_SWDIO" class="0">
@@ -9895,16 +9881,28 @@ PCA8C250</text>
 <label x="124.46" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="ESP_RXD" class="0">
 <segment>
-<pinref part="JP5" gate="-3" pin="1"/>
-<wire x1="137.16" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="-2" pin="1"/>
+<wire x1="137.16" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
+<label x="124.46" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="RXD0"/>
+<wire x1="109.22" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<label x="116.84" y="73.66" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="ESP_TXD" class="0">
 <segment>
-<pinref part="JP5" gate="-3" pin="2"/>
-<wire x1="137.16" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="-2" pin="2"/>
+<wire x1="137.16" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
+<label x="124.46" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="TXD0"/>
+<wire x1="109.22" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="116.84" y="76.2" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
