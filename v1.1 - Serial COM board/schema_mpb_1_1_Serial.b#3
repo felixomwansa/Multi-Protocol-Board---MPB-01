@@ -158,12 +158,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="-1" y1="-0.5" x2="92.34" y2="-0.5" width="0" layer="20"/>
-<wire x1="92.34" y1="-0.5" x2="92.34" y2="44.98" width="0" layer="20"/>
+<wire x1="-1" y1="44.98" x2="-1" y2="2.04" width="0" layer="20"/>
+<wire x1="-1" y1="2.04" x2="1.54" y2="-0.5" width="0" layer="20" curve="90"/>
+<wire x1="1.54" y1="-0.5" x2="89.8" y2="-0.5" width="0" layer="20"/>
+<wire x1="89.8" y1="-0.5" x2="92.34" y2="2.04" width="0" layer="20" curve="90"/>
+<wire x1="92.34" y1="2.04" x2="92.34" y2="44.98" width="0" layer="20"/>
 <wire x1="92.34" y1="44.98" x2="89.8" y2="47.52" width="0" layer="20" curve="90"/>
 <wire x1="89.8" y1="47.52" x2="1.54" y2="47.52" width="0" layer="20"/>
 <wire x1="1.54" y1="47.52" x2="-1" y2="44.98" width="0" layer="20" curve="90"/>
-<wire x1="-1" y1="44.98" x2="-1" y2="-0.5" width="0" layer="20"/>
 <rectangle x1="84.1734" y1="28.5754" x2="84.2242" y2="28.6262" layer="21"/>
 <rectangle x1="84.021" y1="28.6262" x2="84.4782" y2="28.677" layer="21"/>
 <rectangle x1="89.2026" y1="28.6262" x2="89.5582" y2="28.677" layer="21"/>
@@ -3163,20 +3165,24 @@ design rules under a new name.</description>
 <contactref element="T4" pad="2"/>
 <contactref element="T3" pad="2"/>
 <polygon width="0.1524" layer="16">
-<vertex x="-0.889" y="-0.373"/>
+<vertex x="92.202" y="44.847"/>
+<vertex x="92.202" y="2.167" curve="-90"/>
+<vertex x="89.662" y="-0.373"/>
+<vertex x="1.651" y="-0.373" curve="-90"/>
+<vertex x="-0.889" y="2.167"/>
 <vertex x="-0.889" y="44.847" curve="-90"/>
 <vertex x="1.651" y="47.387"/>
 <vertex x="89.662" y="47.387" curve="-90"/>
-<vertex x="92.202" y="44.847"/>
-<vertex x="92.202" y="-0.373"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="-0.889" y="-0.373"/>
+<vertex x="92.202" y="44.847"/>
+<vertex x="92.202" y="2.167" curve="-90"/>
+<vertex x="89.662" y="-0.373"/>
+<vertex x="1.651" y="-0.373" curve="-90"/>
+<vertex x="-0.889" y="2.167"/>
 <vertex x="-0.889" y="44.847" curve="-90"/>
 <vertex x="1.651" y="47.387"/>
 <vertex x="89.662" y="47.387" curve="-90"/>
-<vertex x="92.202" y="44.847"/>
-<vertex x="92.202" y="-0.373"/>
 </polygon>
 </signal>
 <signal name="N$34">
